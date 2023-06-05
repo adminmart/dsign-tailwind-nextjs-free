@@ -29,7 +29,7 @@ const footer = () => {
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
                         <img src={'/assets/footer/logo.svg'} alt="logo" className='pb-8' />
                         <div className='flex gap-4'>
-                            <Link href="https://facebook.com" className='footer-icons'>
+                            <Link href="https://facebook.com" className='footer-fb-icons'>
                                 <Image src={'/assets/footer/facebook.svg'} alt="facebook" width={15} height={20} />
                             </Link>
                             <Link href="https://twitter.com" className='footer-icons'>
